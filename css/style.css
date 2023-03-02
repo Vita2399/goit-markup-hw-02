@@ -1,0 +1,41 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-style: normal;
+    background-color: #FFFFFF;
+}
+
+/* --------HEADER-------- */
+
+.header-logo {
+    text-decoration: none;
+}
+
+.header-web {
+    font-family: 'Raleway';
+    font-style: normal ;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color: #4D5AE5;
+}
+
+.header-studio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2E2F42;
+}
+
+.header-main{
+    width: 586px;
+    height: 48px;
+    left: 427px;
+    top: 168px;
+}
+
+.main {
+    list-style: none;
+}
