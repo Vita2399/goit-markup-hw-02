@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts .googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body class="body" id="body">
     <header class="header">
         <nav class="header-nav">
-            <a class="header-logo" href="./index.html"><span class="header-web">Web</span><span class="header-studio">Studio</span></a>
-      <ul class="header-main main">
+            <a class="page-logo link"  href="./index.html">Web<span class="logo-item">Studio</span></a>
+      <ul class="header-list">
         <li class="header-main-item"> <a class="header-main-link" href="">Studio</a></li>
         <li class="header-main-item"> <a class="header-main-link" href="">Portfolio</a></li>
         <li class="header-main-item"> <a class="header-main-link" href="">Contacts</a></li>
@@ -24,77 +24,87 @@
    <address>
     <ul>
         <li> <a class="address-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li> <a class="address-phone" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <li> <a class="address-tel" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
     </ul>
    </address>
     </header>
     <main>
         <!-- Section 1 -->
-        <section class="hero-image">
-            <h1>Activity for peaple</h1>
-            <button>All</button>
-            <button>Web Site</button>
-            <button>App</button>
-            <button>Design</button>
-            <button>Marketing</button>
+        <section class="projects">
+            <h1 hidden>Portfolio</h1>
+            <ul class="filter list">
+                <li>
+                    <button class="filter-btn btn" type="button">All</button>
+                    <button class="filter-btn btn" type="button">Web Site</button>
+                    <button class="filter-btn btn" type="button">App</button>
+                    <button class="filter-btn btn" type="button">Design</button>
+                    <button class="filter-btn btn" type="button">Marketing</button>
+                </li>
+            </ul>
         </section>
         <!-- Section 2 -->
-        <section>
-            <h2>Services</h2>
-            <ul>
-                <li>
+        <section class="hero">
+            <h2 class="visually-hidden">Services</h2>
+            <ul class="hero-list list">
+                <li class="hero-item"> 
+                    <a class="hero-list link" href="#">
                      <img src="./images/interface.jpg" 
                      alt="service"
                      width="360"
                      height="300">
-                     <h3>Banking App Interface Concept</h3>
-                     <p>App</p>
+                     <h3 class="service">Banking App Interface Concept</h3>
+                     <p class="service-text">App</p></a>
                 </li>
                 <li>
+                    <a class="hero-list link" href="#">
                     <img src="./images/payment.jpg"
                      alt="payment"
                      width="360"
                      height="300">
-                     <h3>Cashless Payment</h3>
-                     <p>Marketing</p>
+                     <h3 class="service">Cashless Payment</h3>
+                     <p class="service-text">Marketing</p></a>
                 </li>
                 <li>
+                    <a class="hero-list link" href="#">
                     <img src="./images/meditaion.jpg"
                      alt="meditaion"
                      width="360"
                      height="300">
-                     <h3>Meditaion App</h3>
-                     <p>App</p>
+                     <h3 class="service">Meditaion App</h3>
+                     <p class="service-text">App</p></a>
                 </li>
             </ul>
         </section>
         <!-- Section 3 -->
-        <section>
+        <section >
            <h2>Technology</h2>
            <ul>
             <li>
+                <a class="hero-list link" href="#">
                 <img src="./images/taxi.jpg" 
                 alt="taxi"
                 width="360"
                 height="300">
-                <h3>Taxi Service</h3>
-                <p>Marketing</p>
+                <h3 class="service">Taxi Service</h3>
+                <p class="service-text">Marketing</p></a>
             </li>
             <li>
+                <a class="hero-list link" href="#">
                 <img src="./images/screen.jpg" 
                 alt="screen"
                 width="360"
                 height="300">
-                <h3>Screen Illustrations</h3>
-                <p>Design</p>
+                <h3 class="service">Screen Illustrations</h3>
+                <p class="service-text">Design</p></a>
             </li>
             <li>
+                <a class="hero-list link" href="#">
                 <img src="./images/courses.jpg" 
                 alt="courses"
                 width="360"
                 height="300">
-                <h3>Online Courses</h3>
-                <p>Marketing</p>
+                <h3 class="service">Online Courses</h3>
+                <p class="service-text">Marketing</p></a>
             </li>
            </ul>
         </section>
@@ -103,28 +113,31 @@
             <h2>Web Site</h2>
             <ul>
                 <li>
+                    <a class="hero-list link" href="#">
                     <img src="./images/stories.jpg" 
                     alt="stories"
                     width="360"
                     height="300">
-                    <h3>Instagram Stories Concept</h3>
-                    <p>Design</p>
+                    <h3 class="service">Instagram Stories Concept</h3>
+                    <p class="service-text">Design</p></a>
                 </li>
                 <li>
+                    <a class="hero-list link" href="#">
                     <img src="./images/food.jpg"
                      alt="food"
                      width="360"
                      height="300">
-                     <h3>Organic Food</h3>
-                     <p>Web Site</p>
+                     <h3 class="service">Organic Food</h3>
+                     <p class="service-text">Web Site</p></a>
                 </li>
                 <li>
+                    <a class="hero-list link" href="#">
                     <img src="./images/coffee.jpg" 
                     alt="coffee"
                     width="360"
                     height="300">
-                    <h3>Fresh Coffee</h3>
-                    <p>Web Site</p>
+                    <h3 class="service">Fresh Coffee</h3>
+                    <p class="service-text">Web Site</p></a>
                 </li>
             </ul>
         </section>
